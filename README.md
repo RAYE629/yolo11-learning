@@ -31,3 +31,22 @@ results = model("https://ultralytics.com/images/bus.jpg", save=True)
 # 3. 打印结果
 print("推理完成")
 print(results[0])
+## Environment
+
+### Create environment
+
+```bash
+conda env create -f environment.yml
+```
+
+### Activate environment
+
+```bash
+conda activate yolo
+```
+
+### Verify installation
+
+```bash
+python -c "import ultralytics; print(ultralytics.__version__)"
+```
