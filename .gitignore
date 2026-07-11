@@ -1,0 +1,24 @@
+# 模型权重
+*.pt
+*.pth
+
+# 数据
+datasets/
+
+# 推理输出
+runs/
+outputs/
+
+# 图片
+*.jpg
+*.png
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Conda
+.env
